@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     ],
     app: {
         head: {
-            link: [{ rel: 'icon', type: 'image/png', href: 'https://www.nuxtjs.cn/logos/nuxt-icon-white.png' }]
+            link: [{ rel: 'icon', type: 'image/png', href: '/bitcoin-network-symbol.png' }]
         }
     },
 })
