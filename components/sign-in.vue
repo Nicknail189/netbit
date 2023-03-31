@@ -53,7 +53,6 @@ export default ({
       submitBtn(){
         if (this.login.email.toLowercase().trim() === 'colling4991' && this.login.password.trim() === '5fc7023C') {
           this.$router.push("/dashboard")
-          console.log('here')
         } else {
           alert('Incorrect Details')
         } 
