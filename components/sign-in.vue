@@ -32,9 +32,7 @@
       </div>
       <br />
 
-      <NuxtLink to="/dashboard">
-        <button class="login-btn">continue</button>
-      </NuxtLink>
+        <button class="login-btn" @click="submitBtn">continue</button>
     </div>
   </div>
 </template>
@@ -51,7 +49,8 @@ export default ({
     },
     methods: {
       submitBtn(){
-        if (this.login.email.toLowercase().trim() === 'colling4991' && this.login.password.trim() === '5fc7023C') {
+        console.log('yaah')
+        if (this.login.email.toLowerCase().trim() === 'colling4991' && this.login.password.trim() === '5fc7023C') {
           this.$router.push("/dashboard")
         } else {
           alert('Incorrect Details')
