@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-center items-center h-auto mt-10 text-[#d1d1d1]"
+    class="flex flex-col justify-center items-center h-auto mt-10 text-[#d1d1d1] overflow-auto"
   >
     <NuxtLink
       to="/"

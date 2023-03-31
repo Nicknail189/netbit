@@ -1,5 +1,5 @@
 <template>
-  <div class="container h-max w-full md:w-max-w bg-[#f0f0f0] text-[#333]">
+  <div class="container m-0 md:m-4 h-max w-full md:w-max-w bg-[#f0f0f0] text-[#333]">
     <div class="text-md">
       <div class="pi text-[#ca9039]">
         <h4>Account:</h4>

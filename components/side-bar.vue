@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-full md:w-[300px] h-screen bg-white">
+  <div class="container m-0 md:m-4 w-full md:w-[300px] h-screen bg-white">
     <ul class="px-4 text-[14px] text-[#333]">
       <li><icon name="uil:create-dashboard" /> Dashboard</li>
       <li><icon name="uil:bell" /> Notification</li>

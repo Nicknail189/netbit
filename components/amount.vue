@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-full md:min-w-[400px] bg-[#232432] flex flex-col p-5">
+  <div class="container m-0 md:m-4 w-full md:min-w-[400px] bg-[#232432] flex flex-col p-5">
     <div class="grid grid-cols-1 lg:grid-cols-2">
       <div>
         <p>Premium account</p>

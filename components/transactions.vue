@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-[400px] md:m-4 md:p-3 lg:w-auto shadow-lg rounded bg-white text-[#333] flex justify-center items-start overflow-auto"
+    class="h-[400px] m-0 md:m-4 md:p-3 lg:w-auto shadow-lg rounded bg-white text-[#333] flex justify-center items-start overflow-auto"
   >
     <!-- <h4
       class="body-text text-gray-400 flex flex-col justify-center items-center"

@@ -5,7 +5,7 @@
     <div class="max-w-[200px] max-h-[200px]">
     <img class="rounded-md hover:shadow-xl" src="/premium.jpg"/>
     </div>
-    <div class="mt-6">
+    <div class="mt-6 text-center">
       <h2 class="medium-header leading-[5px]">Premium Account</h2>
       <br />
       <p class="body-text">
@@ -20,7 +20,7 @@
         <div class="max-w-[200px] max-h-[200px]">
     <img class="rounded-md" src="/security.jpg"/>
     </div>
-    <div class="mt-6">
+    <div class="mt-6 text-center">
       <h2 class="medium-header leading-[5px]">Guest</h2>
       <br />
       <p class="body-text">
@@ -39,11 +39,14 @@
     <div class="max-w-[200px] max-h-[200px]">
     <img class="rounded-md" src="/learning.jpg"/>
     </div>
+    <div class="mt-6 flex flex-col justify-center items-center">
       <button class="body-text py-2 px-3 flex items-center border rounded-md">
         <icon class="mr-2 text-[20px]" name="uil:play-circle" />
         LEARN MORE
       </button>
       <p class="body-text mt-2">Learn more about crypto - for beginners</p>
+    </div>
+
     </NuxtLink>
   </div>
 </template>
