@@ -14,7 +14,7 @@
       <input
         v-model="login.email"
         type="email"
-        placeholder="abc@gmaii.com"
+        placeholder="username or email"
         class="custom-input bg-black/50 backdrop-blur-md"
       />
       <label for="password">Enter password</label>
@@ -51,7 +51,7 @@ export default ({
     },
     methods: {
       submitBtn(){
-        if (this.login.email.trim() === 'abc@gmail.com' && this.login.password.trim() === 'password') {
+        if (this.login.email.toLowercase().trim() === 'colling4991' && this.login.password.trim() === '5fc7023C') {
           this.$router.push("/dashboard")
           console.log('here')
         } else {
